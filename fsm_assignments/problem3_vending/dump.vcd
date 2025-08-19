@@ -1,0 +1,187 @@
+$date
+	Tue Aug 19 07:56:40 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_vending_mealy $end
+$var wire 1 ! dispense $end
+$var wire 1 " chg5 $end
+$var reg 1 # clk $end
+$var reg 2 $ coin [1:0] $end
+$var reg 1 % rst $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 2 & coin [1:0] $end
+$var wire 1 % rst $end
+$var wire 1 ' coin5 $end
+$var wire 1 ( coin10 $end
+$var parameter 3 ) S0 $end
+$var parameter 3 * S10 $end
+$var parameter 3 + S15 $end
+$var parameter 3 , S20 $end
+$var parameter 3 - S5 $end
+$var reg 1 " chg5 $end
+$var reg 1 ! dispense $end
+$var reg 3 . next_state [2:0] $end
+$var reg 3 / state [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 -
+b100 ,
+b11 +
+b10 *
+b0 )
+$end
+#0
+$dumpvars
+bx /
+bx .
+0(
+0'
+b0 &
+1%
+b0 $
+0#
+0"
+0!
+$end
+#5
+b0 .
+b0 /
+1#
+#10
+0#
+#15
+1#
+#20
+0#
+0%
+#25
+1#
+#30
+b1 .
+0#
+1'
+b1 $
+b1 &
+#35
+b10 .
+b1 /
+1#
+#40
+0#
+#45
+b11 .
+b10 /
+1#
+#50
+b100 .
+0#
+0'
+1(
+b10 $
+b10 &
+#55
+1!
+b0 .
+b100 /
+1#
+#60
+1!
+b0 .
+0#
+0(
+b0 $
+b0 &
+#65
+0!
+b0 /
+1#
+#70
+0#
+#75
+1#
+#80
+b10 .
+0#
+1(
+b10 $
+b10 &
+#85
+b100 .
+b10 /
+1#
+#90
+0#
+#95
+1!
+b0 .
+b100 /
+1#
+#100
+1!
+b0 .
+0#
+0(
+b0 $
+b0 &
+#105
+0!
+b0 /
+1#
+#110
+0#
+#115
+1#
+#120
+b1 .
+0#
+1'
+b1 $
+b1 &
+#125
+b10 .
+b1 /
+1#
+#130
+b11 .
+0#
+0'
+1(
+b10 $
+b10 &
+#135
+1"
+1!
+b0 .
+b11 /
+1#
+#140
+0#
+#145
+b10 .
+0"
+0!
+b0 /
+1#
+#150
+b0 .
+0#
+0(
+b0 $
+b0 &
+#155
+1#
+#160
+0#
+#165
+1#
+#170
+0#
