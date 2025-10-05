@@ -109,8 +109,6 @@ You may see these warnings, which are normal:
 WARNING: riscvsingle.sv:337: $readmemh(riscvtest.txt): Not enough words in the file for the requested range [0:63].
 This indicates the test program is smaller than the memory array – this is expected behavior.
 
-Compilation Issues
-Refer to the Makefile and Icarus Verilog output messages for troubleshooting compilation issues.
 
 
 
