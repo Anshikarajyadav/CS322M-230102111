@@ -1,6 +1,6 @@
 # RVX10 Instruction Encodings
 CS322M — Single-Cycle RISC-V Processor (RVX10 Extension)  
-Author: **Anshika Yadav (IIT Guwahati)**  
+Author: **Anshika Raj Yadav (230102111)**  
 Target ISA: **RV32I + Custom-0 Opcode (0x0B)**
 
 ---
@@ -118,5 +118,6 @@ All instructions follow the **R-type format** and use the **Custom-0 opcode**:
 - The remaining datapath/control logic is unchanged.
 
 ---
+
 
 
